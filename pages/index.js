@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+import Head from "next/head";
 import styled from "styled-components";
 
 const Title = styled.h1`
@@ -78,13 +80,15 @@ export default function Home() {
       setEmail("");
       alert("Thanks! We will let you know when basextend is in alpha :)");
     } else {
-      alert("please input a real email...")
+      alert("please input a real email...");
     }
-
   };
 
   return (
     <Container>
+      <Head>
+        <title>basextend</title>
+      </Head>
       <InnerContainer>
         <div>
           <Launching>Launching June 2021</Launching>
