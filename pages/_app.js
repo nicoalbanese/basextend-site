@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
     margin: 0;
     padding: 0;

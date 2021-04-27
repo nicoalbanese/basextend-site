@@ -22,7 +22,7 @@ const Container = styled.div`
 `;
 
 const InnerContainer = styled.div`
-  width: clamp(500px, 80%, 800px);
+  width: clamp(300px, 80%, 800px);
 `;
 
 const Form = styled.form``;
