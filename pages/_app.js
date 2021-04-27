@@ -1,10 +1,20 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
   body {
+    font-size: 20px;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   h1, h2, h3, h4, h5 {
@@ -15,14 +25,14 @@ const GlobalStyle = createGlobalStyle`
 
 const theme = {
   colors: {
-    primary: "#0070f3",
+    primary: "#fff",
   },
 };
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle theme={theme} />
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
