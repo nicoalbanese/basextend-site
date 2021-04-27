@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     color: ${({ theme }) => theme.colors.primary};
+    background: hsla(216, 27%, 17%, 1);
   }
 
   h1, h2, h3, h4, h5 {

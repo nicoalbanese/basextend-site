@@ -13,7 +13,6 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsla(216, 27%, 17%, 1);
   flex-direction: column;
 `;
 
