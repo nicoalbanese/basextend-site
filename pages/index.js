@@ -14,6 +14,11 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  .underline {
+    text-decoration: underline;
+    font-weight: 500;
+  }
 `;
 
 const InnerContainer = styled.div`
@@ -96,7 +101,7 @@ export default function Home() {
         <Title>🚀 basextend 🚀</Title>
         <div className='hero-container'>
           <p>
-            Build your own custom browser extension to query and add data to
+            Build your own custom <span className="underline">browser extension to query and add data</span> to
             your Airtable base!
           </p>
           <img
