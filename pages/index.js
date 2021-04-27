@@ -88,6 +88,7 @@ export default function Home() {
     <Container>
       <Head>
         <title>basextend</title>
+        <link rel='shortcut icon' href='/static/favicon.ico' />
       </Head>
       <InnerContainer>
         <div>
