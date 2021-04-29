@@ -112,7 +112,7 @@ export default function Home() {
           />
         </div>
         <FormContainer>
-          <h3>Sign up for alpha</h3>
+          <h3>Email me when its ready 😊</h3>
           <Form action='submit' onSubmit={handleSubmit}>
             <input
               className='email'
