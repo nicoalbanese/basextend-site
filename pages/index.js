@@ -96,7 +96,7 @@ export default function Home() {
       </Head>
       <InnerContainer>
         <div>
-          <Launching>Launching June 2021</Launching>
+          <Launching>Launching soon...</Launching>
         </div>
         <Title>🚀 basextend 🚀</Title>
         <div className='hero-container'>
